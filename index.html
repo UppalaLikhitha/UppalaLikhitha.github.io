@@ -3,63 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sravanth DevOps Portfolio</title>
+    <title>Sravanth Kumar - DevOps Engineer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Sravanth - DevOps Engineer</h1>
-        <p>AWS | Kubernetes | Terraform | CI/CD | Python</p>
+        <div class="hero">
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Sravanth Kumar">
+            </div>
+            <h1>Sravanth Kumar</h1>
+            <p>DevOps Engineer | AWS Cloud | CI/CD Automation</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
+        </div>
     </header>
     
-    <section id="about">
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Passionate DevOps Engineer with 3+ years of experience in cloud computing, automation, and infrastructure management. Certified AWS Cloud Practitioner with expertise in designing scalable and reliable systems.</p>
+        <p>Determined, energetic, and diligent DevOps Engineer with 3 years of experience specializing in AWS cloud services, automation, and CI/CD pipelines.</p>
     </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
+    
+    <section id="experience" class="container">
+        <h2>Work Experience</h2>
+        <div class="experience-box">
+            <h3>Analyst, Suntec Digital Solutions</h3>
+            <p>March 2022 - Present</p>
+            <ul>
+                <li>Created and maintained automated CI/CD pipelines.</li>
+                <li>Managed AWS services like EC2, S3, IAM, and EKS.</li>
+                <li>Configured Kubernetes clusters and used Helm charts.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Terraform AWS Module</h3>
+                <p>Technology: Terraform, AWS, GitHub Actions</p>
+            </div>
+            <div class="project">
+                <h3>CI/CD Automation</h3>
+                <p>Technology: Jenkins, Docker, Kubernetes</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="container">
+        <h2>Skills</h2>
         <ul>
-            <li>AWS, Azure, GCP</li>
-            <li>Kubernetes, Docker, Helm</li>
-            <li>Terraform, Ansible, Jenkins</li>
-            <li>CI/CD Pipelines, Git, GitHub Actions</li>
-            <li>Python, Bash Scripting, YAML</li>
-            <li>Linux Administration, Monitoring (Prometheus, Grafana)</li>
+            <li>AWS (EC2, IAM, S3, EKS, CloudWatch)</li>
+            <li>Terraform, Ansible, Helm</li>
+            <li>Jenkins, GitHub, Docker, Kubernetes</li>
+            <li>Linux, Shell Scripting, Python</li>
         </ul>
     </section>
     
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>AWS Infrastructure Automation</h3>
-            <p>Automated AWS infrastructure deployment using Terraform, improving deployment speed by 40%.</p>
-        </div>
-        <div class="project">
-            <h3>CI/CD Pipeline for Microservices</h3>
-            <p>Designed a Jenkins-based CI/CD pipeline for Kubernetes deployments, reducing release time by 50%.</p>
-        </div>
-    </section>
-    
-    <section id="certifications">
+    <section id="certifications" class="container">
         <h2>Certifications</h2>
         <ul>
-            <li>AWS Certified Cloud Practitioner</li>
-            <li>Certified Kubernetes Administrator (CKA) - In Progress</li>
+            <li>AWS Cloud Practitioner</li>
         </ul>
     </section>
     
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <h3>DevOps Engineer | Company XYZ | 2022 - Present</h3>
-        <p>Managed cloud infrastructure, automated deployments, and improved system reliability.</p>
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <p>Bachelor of Engineering from Sathyabama University, Chennai (2014-2018)</p>
     </section>
     
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: sravanth@example.com</p>
-        <p>GitHub: <a href="https://github.com/sravanth">github.com/sravanth</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/sravanth">linkedin.com/in/sravanth</a></p>
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
+    
+    <footer>
+        <p>&copy; 2025 Sravanth Kumar. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
