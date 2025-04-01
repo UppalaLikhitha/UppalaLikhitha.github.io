@@ -7,37 +7,40 @@ body {
 }
 
 header {
-    background: url('Devops.png') no-repeat center center/cover; /* Using devops.png image */
-    padding: 50px 0;
+    background: url('devops.png') no-repeat center center/contain; /* Adjust background size to contain */
+    padding: 80px 0; /* Increased padding for better display */
     text-align: center;
     color: #fff;
-}
-
-.profile-pic img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #58a6ff;
+    background-position: center center;
+    background-size: cover; /* Keeps the background image scaling properly */
 }
 
 h1 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: 36px; /* Larger font size for better visibility */
+    font-weight: 600; /* Slightly bolder */
+    color: #ffffff; /* White color to stand out */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Added shadow to enhance text visibility on light background */
 }
 
 p {
     color: #8b949e;
+    font-size: 18px; /* Slightly larger for better readability */
 }
 
 .social-links {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .social-links a {
     color: #58a6ff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: 500; /* Slightly bolder for visibility */
+}
+
+.social-links a:hover {
+    text-decoration: underline;
 }
 
 .container {
