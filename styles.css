@@ -48,6 +48,14 @@ p {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(88, 166, 255, 0.2);
 }
+.employment-history {
+    width: 80%;
+    margin: 20px auto;
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(88, 166, 255, 0.2);
+}
 
 h2 {
     color: #ffffff;
