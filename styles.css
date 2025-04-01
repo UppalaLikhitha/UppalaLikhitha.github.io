@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('your-background-image.jpg') no-repeat center center/cover;
+    background: url('Devops.png') no-repeat center center/cover; /* Using devops.png image */
     padding: 50px 0;
     text-align: center;
     color: #fff;
@@ -48,6 +48,7 @@ p {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(88, 166, 255, 0.2);
 }
+
 .employment-history {
     width: 80%;
     margin: 20px auto;
@@ -79,6 +80,3 @@ h2 {
     box-shadow: 2px 2px 10px rgba(88, 166, 255, 0.2);
     text-align: center;
 }
-
-/* Employment History */
-
